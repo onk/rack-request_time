@@ -1,10 +1,5 @@
 source :rubygems
 
-gem "rack"
-gem "activesupport"
-
-group :test do
-  gem "rspec"
-  gem "timecop"
-end
+# Specify your gem's dependencies in rack-request_time.gemspec
+gemspec
 
