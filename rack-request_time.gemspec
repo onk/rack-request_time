@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name          = "rack-request_time"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["onk"]
   gem.email         = ["takafumi.onaka@gmail.com"]
   gem.description   = %q{Rack middleware for using consistent time in request.}
