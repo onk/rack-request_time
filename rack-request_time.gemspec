@@ -6,6 +6,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Rack middleware for using consistent time in request.}
   gem.summary       = %q{Rack::RequestTime is a Rack middleware for using consistent time in request.}
   gem.homepage      = "https://github.com/onk/rack-request_time"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
